@@ -16,7 +16,7 @@ Finally JAVA is used to create a WebView application in android studio.
 3. You could add a auto-email authentication to the system. But, in case your mail ID's from university/institution does not support mail from other ID's you have to INSERT all the valid email (student's email) in "valid_email" TABLE.
 
 # Snaps
-
+<div>
 <img src="images/1.jpg" float="left" width="40%" height="40%">
 <img src="images/2.jpg" float="left" width="40%" height="40%">
 <img src="images/3.jpg">
@@ -25,3 +25,4 @@ Finally JAVA is used to create a WebView application in android studio.
 <img src="images/6.jpg">
 <img src="images/7.jpg">
 <img src="images/8.jpg">
+</div>
