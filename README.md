@@ -19,10 +19,10 @@ Finally JAVA is used to create a WebView application in android studio.
 <div>
 <img src="images/1.jpg" float="left" width="48%" height="48%">
 <img src="images/2.jpg" float="left" width="48%" height="48%">
-<img src="images/3.jpg">
-<img src="images/4.jpg">
-<img src="images/5.jpg">
-<img src="images/6.jpg">
-<img src="images/7.jpg">
+<img src="images/3.jpg" float="left" width="48%" height="48%">
+<img src="images/4.jpg" float="left" width="48%" height="48%">
+<img src="images/5.jpg" float="left" width="48%" height="48%">
+<img src="images/6.jpg" float="left" width="48%" height="48%">
+<img src="images/7.jpg" float="left" width="48%" height="48%">
 <img src="images/8.jpg">
 </div>
