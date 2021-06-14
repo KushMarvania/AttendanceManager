@@ -1,6 +1,7 @@
 # AttendanceManager
 Attendance manager app to get attendance of a class in LAN based network. It is basically a web app that can be hosted in router present in classroom environment.
 For front-end HTML, CSS and JavaScript is used and for the back-end part PHP is coupled with MySQL.
+Finally JAVA is used to create a WebView application in android studio.
 
 # Advances / How it Works
 1. Since, this is a LAN based system you can be sure that attendace can be marked only in that network.
