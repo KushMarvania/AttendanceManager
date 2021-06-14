@@ -1,0 +1,185 @@
+*{
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: black;
+  margin: 0;
+}
+
+body{
+  background-color: white;
+}
+.nav{
+  width: 100vw;
+}
+.nav button{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: lighter;
+  background-color: white;
+  color: black;
+}
+
+.sub_menu button{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: inherit;
+  border: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.sub_menu{
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  animation-name: bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bottom {
+  from {left: -100vw;}
+  to {left: 0;}
+}
+.blank{
+  height: 100px;
+}
+
+.sub_menu a{
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  margin-left: 5vw;
+  font-size: 20px;
+}
+
+input{
+  background-color: inherit;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 40vw;
+  margin-left: 5vw;
+  height: 10vw;
+  border: 0;
+}
+
+hr{
+  width: 40vw;
+  margin-left: 5vw;
+  border-top: 1px solid white;
+}
+
+.btns{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#button{
+  font-size: 15px;
+  height: 12vw;
+  width: 25vw;
+  border-radius: 20px;
+  background-color: #8fe3d9;
+  color: black;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+.user{
+  margin-top: 10px;
+}
+
+.date{
+  font-size: 13px;
+  opacity: 0.7;
+  text-align: right;
+  padding-right: 3vw;
+  font-weight: lighter;
+}
+
+.hello{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #8fe3d9;
+  margin-left: 3vw;
+  font-family: monospace;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 3vw;
+}
+
+.roll{
+  font-size: 32px;
+  margin-left: 3vw;
+  color: #8fe3d9;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.circle{
+  width: 46vw;
+  height: 74vw;
+  border-radius: 15px;
+  margin: 2vw;
+  color: black;
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 74vw;
+  overflow: hidden;
+  font-family: arial;
+  float: left;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01), 0 3px 10px 0 rgba(0, 0, 0, 0.04);
+}
+
+.attendance_view{
+  margin-top: 30px;
+  width: 100vw;
+}
+
+#full{
+  position: relative;
+  margin: 2vw;
+  width: 46vw;
+  height: 35vw;
+  float: left;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01), 0 3px 10px 0 rgba(0, 0, 0, 0.04);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#subject_name{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#full span{
+  font-size: 15px;
+  color: #8fe3d9;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+#full section{
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 300;
+  margin-top: 5px;
+  font-family: sans-serif;
+}

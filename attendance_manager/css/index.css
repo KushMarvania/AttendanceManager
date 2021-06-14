@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: black;
+  margin: 0;
+}
+
+body{
+  background-color: white;
+}
+
+.ani{
+  margin-top: 25px;
+  margin-bottom: -20px;
+  width: 50vw;
+  height: 50vw;
+  margin-left: 25vw;
+}
+
+.box{
+  width: 25vw;
+  height: 25vw;
+  border: 1vw solid black;
+  margin-left: 12.5vw;
+  animation-name: box;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes box {
+  from{transform: rotateZ(0deg);}
+  to{transform: rotateZ(360deg);}
+}
+
+.ball{
+  width: 5vw;
+  height: 5vw;
+  margin-left: 18vw;
+  margin-top: 18vw;
+  border-radius: 50%;
+  background-color: #8fe3d9;
+  animation-name: ball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes ball {
+  0%{margin-left: 18vw; margin-top: 18vw;}
+  25%{margin-left: 0vw; margin-top: 18vw;}
+  50%{margin-left: 0vw; margin-top: 0vw;}
+  75%{margin-left: 18vw; margin-top: 0vw;}
+  100%{margin-left: 18vw; margin-top: 18vw;}
+}
+
+.container button{
+  position: relative;
+  width: 36%;
+  height: 50px;
+  font-size: 15px;
+  border: 0;
+}
+
+.container .login{
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 14%;
+  float: left;
+  font-weight: bold;
+  background-color: #8fe3d9;
+}
+
+.container .signup{
+  border-radius: 25px 25px 25px 25px;
+  margin-right: 14%;
+  float: right;
+  background-color: white;
+}
+
+.frame_one{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.frame_two{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+form{
+  margin-top: 100px;
+}
+
+input{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 5%;
+}
+
+select{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 4%;
+  background-color: inherit;
+}
+
+hr{
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 1px solid white;
+}
+
+.btn{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  position: relative;
+  left: 85vw;
+  transform: translateX(-100%);
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  border: 0px;
+  font-weight: bolder;
+}
