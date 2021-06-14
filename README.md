@@ -14,3 +14,14 @@ Finally JAVA is used to create a WebView application in android studio.
 1. Change the DHCP lease time (assigning internal IP using MAC Address) of the router to 12-16 hrs something, so that a user can change the mobile device to mark the attendance some other day in case.
 2. For registration/sign up, admin needs to add the data to the database for faculties (including subject details) while students can register for themselves.
 3. You could add a auto-email authentication to the system. But, in case your mail ID's from university/institution does not support mail from other ID's you have to INSERT all the valid email (student's email) in "valid_email" TABLE.
+
+# Snaps
+
+<img src="images/1.jpg">
+<img src="images/2.jpg">
+<img src="images/3.jpg">
+<img src="images/4.jpg">
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
