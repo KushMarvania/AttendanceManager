@@ -17,8 +17,8 @@ Finally JAVA is used to create a WebView application in android studio.
 
 # Snaps
 
-<img src="images/1.jpg" width="50%" height="50%" float="left">
-<img src="images/2.jpg" width="50%" height="50%" float="left">
+<img src="images/1.jpg">
+<img src="images/2.jpg">
 <img src="images/3.jpg">
 <img src="images/4.jpg">
 <img src="images/5.jpg">
